@@ -14,6 +14,7 @@ click = "^7.1.2"
 requests = "^2.24.0"
 
 [tool.poetry.dev-dependencies]
+pytest = "^6.0.1"
 
 [tool.poetry.scripts]
 hyper-python-moma = "hyper_python_moma.console:main"
