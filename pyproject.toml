@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "hyper-python-moma"
+version = "0.1.0"
+description = "Hypermodern python tutorial"
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/j6e/hyper-python-moma"
+repository = "https://github.com/j6e/hyper-python-moma"
+authors = ["JoanGE <joangarcia@iti.es>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^7.1.2"
+requests = "^2.24.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+hyper-python-moma = "hyper_python_moma.console:main"
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
